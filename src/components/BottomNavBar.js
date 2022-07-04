@@ -6,6 +6,7 @@ import {
   Image,
   Button,
   TouchableHighlight,
+  Animated
 
 } from "react-native";
 
@@ -33,8 +34,9 @@ function BottomNavBar(props) {
        </TouchableOpacity >
        <TouchableOpacity activeOpacity={.95}>
         <View
-          style={[styles.mainButton, { transform: [{ rotate: "45deg" }] }]}
-        ></View>
+          style={[styles.mainButton, { transform: [{ rotate: "45deg" }] }]}>
+            <Image style={styles.symbol} source={require("../assets/icons/symbol.png")}></Image>
+          </View>
        </TouchableOpacity>
       </View>
     </View>

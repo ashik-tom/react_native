@@ -58,54 +58,5 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     bottom: 5,
   },
-  container: {
-    flex: 1,
-    alignItems: "flex-end",
-    justifyContent:"flex-end",
-    borderRadius:10,
-  },
-  rectangle:{
-    
-    width:200,
-    height:80,
-    backgroundColor: "black" 
-  },
-  mainButton: {
-    position: "absolute",
-    // justifyContent: "flex-end",
-    height: 86,
-    width: 86,
-    // bottom: 50,
-    // alignItems: "baseline",
-    backgroundColor: "#14bdef",
-    borderWidth:3,
-    borderRadius: 10,
-    borderColor: "rgba(255, 255, 255, .1)",
-    top:-45
-  },
-  base: {
-    position: "relative",
-    backgroundColor: "#3D3D3D",
-    justifyContent: "center",
-    // alignItems: "center",
-    flexDirection: "row",
-    height:75
-  },
-
-  icon: {
-    position: "absolute",
-    left:70,
-    top:20,
-   
-    
-    
-  },
-  icon2: {
-    position: "absolute",
-    right: 80,
-    top:20,
-    
-
-  },
 });
 export default styles;

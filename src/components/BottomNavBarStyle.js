@@ -30,6 +30,9 @@ const styles = StyleSheet.create({
     borderColor: "rgba(255, 255, 255, .1)",
     top:-90
   },
+  symbol:{
+    alignItems:"center"
+  },
   rectangle: {
     height:45,
     width:45,
