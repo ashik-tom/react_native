@@ -23,26 +23,26 @@ const styles = StyleSheet.create({
         marginTop:10
     },
     avatar:{  
-        marginTop:25,  
+        marginTop:20,  
         flexDirection:"row",
-        height:130,
-        width:130,
-        borderRadius:65,
+        height:150,
+        width:150,
+        borderRadius:75,
         backgroundColor:"red",
         alignSelf:"center"
     },
     nameU:{
-        marginTop:8,
-        fontSize:26,
-        fontWeight:"600",
+        marginTop:10,
+        fontSize:30,
+        fontWeight:"500",
         color:"white",
         alignSelf:"center"
     },
     statusContainer:{
-        width:350,
-        height:68,
+        width:370,
+        height:60,
         borderRadius:20,
-        marginTop:15,
+        marginTop:30,
         backgroundColor:"#353535",
         alignSelf:"center",
        
@@ -57,15 +57,15 @@ const styles = StyleSheet.create({
         fontSize:24,
         fontWeight:"400",
         // alignItems:"center",
-        marginTop:16
+        marginTop:12
     },
     statIndicator:{
         marginRight:20,
-        marginTop:20
+        marginTop:15
     },
     vacNameContainer:{
-        width:350,
-        height:68,
+        width:370,
+        height:60,
         borderRadius:20,
         marginTop:15,
         backgroundColor:"#353535",
@@ -80,17 +80,19 @@ const styles = StyleSheet.create({
         color:"white",
         fontSize:24,
         fontWeight:"400",
-        marginTop:16,
+        marginTop:12,
         alignSelf:"center"
     },
     vacContainer:{
+        width:370,
         flexDirection:"row", 
-        justifyContent:"space-between"
+        justifyContent:"space-between",
+        alignSelf:"center"
     },
     vacBox1:{
         
-        height:100,
-        width:108,
+        height:90,
+        width:115,
         borderRadius:20,
         backgroundColor:"#353535",
         marginTop:15,
@@ -99,8 +101,8 @@ const styles = StyleSheet.create({
     },
     vacBox2:{
         
-        height:100,
-        width:108,
+        height:90,
+        width:115,
         borderRadius:20,
         backgroundColor:"#353535",
         marginTop:15,
@@ -108,9 +110,8 @@ const styles = StyleSheet.create({
         flexDirection:"column"
     },
     vacBox3:{
-        
-        height:100,
-        width:108,
+        height:90,
+        width:115,
         borderRadius:20,
         backgroundColor:"#353535",
         marginTop:15,
@@ -133,10 +134,11 @@ const styles = StyleSheet.create({
     },
     updVacButton:{
         marginTop:15,
-        width:350,
+        width:370,
         height:50,
         backgroundColor:"black",
-        borderRadius:5
+        borderRadius:5,
+        alignSelf:"center"
     },
     vacStatChange:{
         marginTop:8,

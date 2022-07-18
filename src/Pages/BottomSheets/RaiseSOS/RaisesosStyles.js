@@ -1,0 +1,153 @@
+import { StyleSheet } from "react-native";
+
+const styles = StyleSheet.create({
+    container:{  
+        width:"100%",
+        height:710,
+        backgroundColor:"#000000",
+        borderWidth:.5,
+        borderColor:"rgba(188, 188, 188, 0.3)",
+        marginTop:150,
+        flexDirection:"column",
+        alignItems: "center",
+        borderTopLeftRadius:20,
+        borderTopRightRadius:20,
+    },
+    line:{
+        width:63,
+        borderWidth:1,
+        backgroundColor:"red !important",
+        alignSelf:'center',
+        marginTop:50,
+        
+    },
+    header:{
+        fontSize:28,
+        fontWeight:"400",
+        marginTop:16,
+        color:"white",
+        alignSelf:"center"
+        
+    },
+    divider:{
+        marginTop:15,
+        width:360,
+        borderWidth:1,
+        backgroundColor:"white",
+        alignSelf:"center"
+    },
+    dateBox:{
+        width:360,
+        height:50,
+        borderColor:"#14bdef",
+        marginTop:25,
+        borderWidth:1,
+        borderBottomWidth:4,
+        borderTopLeftRadius:10,
+        borderTopRightRadius:10,
+        flexDirection:"row",
+        justifyContent:"space-between"
+               
+    },
+    date:{
+        color:"#14bdef",
+        fontSize:20,
+        fontWeight:"400",
+        margin:10,  
+    },
+    calender:{
+        margin:14, 
+    },
+    clock:{
+        margin:14,
+    },
+    time:{
+        color:"#14bdef",
+        fontSize:20,
+        fontWeight:"400",
+        margin:10,
+        marginLeft:12
+
+    },
+    timeBox:{
+        width:360,
+        height:50,
+        borderColor:"#14bdef",
+        marginTop:24,
+        borderWidth:1,
+        borderBottomWidth:4,
+        borderTopLeftRadius:10,
+        borderTopRightRadius:10,
+        flexDirection:"row",
+        justifyContent:"space-between"
+    },
+    cont2:{
+        flexDirection:"row",
+        justifyContent:'space-between',
+        width:360,
+        marginTop:25
+    },
+    cont3:{
+        flexDirection:"row",
+        justifyContent:'space-between',
+        width:360,
+        marginTop:20
+    },
+    indicate1:{
+        width:30,
+        height:30,
+    },
+    indicate2:{
+        width:30,
+        height:30,
+      },
+    textW1:{
+        color:"white",
+        fontSize:20,
+        fontWeight:"400"
+    },
+    textW2:{
+        color:"white",
+        fontSize:20,
+        fontWeight:"400"
+
+    },
+    docPickCont:{
+        width:360,
+        height:130,
+        flexDirection:"column",
+        alignItems:"center",
+        borderWidth:.5,
+        borderColor:"white",
+        padding:20,
+        marginTop:20
+    },
+    icon3:{
+       alignSelf:"center"
+    },
+    text3:{
+        color:"white",
+        fontSize:20,
+        marginTop:10
+    },
+    button1:{
+        width:360,
+        height:55,
+        backgroundColor:"#14bdef",
+        marginTop:15,
+        borderRadius:5,
+        alignItems:"center",
+        justifyContent:"center"
+    },
+    button2:{
+        width:360,
+        height:55,
+        backgroundColor:"#d9D9d9",
+        marginTop:10,
+        borderRadius:5,
+        alignItems:"center",
+        justifyContent:"center"
+    }
+
+})
+export default styles;

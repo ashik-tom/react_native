@@ -1,5 +1,6 @@
 import React from "react";
 import { ScrollView,Image, Text, View } from "react-native";
+import BottomNavBar from "../../components/BottomNavBar";
 import styles from "./Styles";
 
 function LandingHome(props) {
@@ -123,8 +124,45 @@ function LandingHome(props) {
               <View style={styles.nameBox}></View>
             </View>
           </View>
+          <View style={styles.homeList}>
+            <View style={styles.imageName}>
+              <View style={styles.circle}></View>
+              <View style={styles.nameBox}></View>
+            </View>
+            <View style={styles.imageName}>
+              <View style={styles.circle}></View>
+              <View style={styles.nameBox}></View>
+            </View>
+            <View style={styles.imageName}>
+              <View style={styles.circle}></View>
+              <View style={styles.nameBox}></View>
+            </View>
+            <View style={styles.imageName}>
+              <View style={styles.circle}></View>
+              <View style={styles.nameBox}></View>
+            </View>
+          </View>
+          <View style={styles.homeList}>
+            <View style={styles.imageName}>
+              <View style={styles.circle}></View>
+              <View style={styles.nameBox}></View>
+            </View>
+            <View style={styles.imageName}>
+              <View style={styles.circle}></View>
+              <View style={styles.nameBox}></View>
+            </View>
+            <View style={styles.imageName}>
+              <View style={styles.circle}></View>
+              <View style={styles.nameBox}></View>
+            </View>
+            <View style={styles.imageName}>
+              <View style={styles.circle}></View>
+              <View style={styles.nameBox}></View>
+            </View>
+          </View>
         </View>
       </ScrollView>
+      <BottomNavBar/>
     </View>
   );
 }

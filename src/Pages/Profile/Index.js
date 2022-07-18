@@ -1,5 +1,7 @@
 import react from 'react';
 import{Stylesheet,Text,View,Image,TouchableOpacity} from "react-native";
+import { TouchableHighlight } from 'react-native';
+import BottomNavBar from '../../components/BottomNavBar';
 
 import styles from './Styles';
 
@@ -45,9 +47,11 @@ function Profile(props) {
                     </View>
                 </View>
             </View>
-            <TouchableOpacity style={styles.updVacButton}>
+            <TouchableHighlight style={styles.updVacButton}>
                 <Text style={styles.vacStatChange}>Change vaccination Status</Text>
-            </TouchableOpacity>
+            </TouchableHighlight>
+
+            <BottomNavBar/>
             
         </View>
     );

@@ -6,15 +6,13 @@ const styles = StyleSheet.create({
         justifyContent:"center",
         borderRadius:10,
         position:"absolute",
-        bottom:15,
-        width:"90%",
-        left:20,
-        right:30,
+        bottom:5,
+        width:370,
+        marginLeft:11,
         elevation:0,
         backgroundColor:"grey",
         borderRadius:15,
         height:80
-
       },
 
   mainButton: {
@@ -28,7 +26,8 @@ const styles = StyleSheet.create({
     borderWidth:3,
     borderRadius: 10,
     borderColor: "rgba(255, 255, 255, .1)",
-    top:-90
+    bottom:85
+    
   },
   symbol:{
     alignItems:"center"
@@ -44,23 +43,9 @@ const styles = StyleSheet.create({
     width:48,
     left:140,
     top:28 
-  }
+  },
  
 
-//   icon: {
-//     position: "absolute",
-//     left:70,
-//     top:20,
-   
-    
-    
-//   },
-//   icon2: {
-//     position: "absolute",
-//     right: 80,
-//     top:20,
-    
 
-//   },
 });
 export default styles;

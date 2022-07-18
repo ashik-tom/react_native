@@ -35,7 +35,7 @@ function BottomNavBar(props) {
        <TouchableOpacity activeOpacity={.95}>
         <View
           style={[styles.mainButton, { transform: [{ rotate: "45deg" }] }]}>
-            <Image style={styles.symbol} source={require("../assets/icons/symbol.png")}></Image>
+            <Image style={[styles.symbol,{transform:[{rotate: "45deg"}]}]} source={require("../assets/icons/symbol.png")}></Image>
           </View>
        </TouchableOpacity>
       </View>

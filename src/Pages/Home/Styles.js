@@ -46,9 +46,7 @@ const styles = StyleSheet.create({
         height:16,
         width:60,
         borderRadius:20,
-        backgroundColor:"#19B400",
-        
+        backgroundColor:"#19B400",        
     }
-
 });
 export default styles;
